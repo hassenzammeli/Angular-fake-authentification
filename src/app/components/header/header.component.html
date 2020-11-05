@@ -1,0 +1,53 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Test Geeks Data</a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link waves-light" mdbWavesEffect>Accueil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect>Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [routerLink]="['/description']">Nos Produits </a>
+        </li>
+      </ul>
+      <!-- Links -->
+  
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/geeksdataa">
+            <mdb-icon fab icon="twitter"></mdb-icon>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/company/geeks-data/">
+            <mdb-icon fab icon="linkedin-in"></mdb-icon>
+          </a>
+        </li>
+
+      <!--   <li class="nav-item">
+          <a class="nav-link" routerLink="/login">
+            <div class="btn-group" mdbDropdown>
+              <mdb-icon fas icon="user" mdbDropdownToggle></mdb-icon>
+
+              <div class="dropdown-menu dropdown-menu-right dropdown-primary">
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Déconnexion</a>
+              </div>
+            </div>
+          </a>
+        </li> -->
+      </ul>
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
